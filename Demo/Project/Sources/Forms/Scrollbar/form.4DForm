@@ -1,0 +1,207 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 600,
+	"windowMinHeight": 500,
+	"width": 600,
+	"height": 500,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onActivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"vl_cancel": {
+					"type": "button",
+					"top": 460,
+					"left": 468,
+					"width": 108,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"class": "Default",
+					"focusable": false,
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"vl_scrollbar2": {
+					"type": "plugin",
+					"top": 12,
+					"left": 75,
+					"width": 25,
+					"height": 461,
+					"sizingY": "grow",
+					"pluginAreaKind": "_hmFreeScrollbar",
+					"borderStyle": "none",
+					"events": [
+						"onClick",
+						"onPluginArea"
+					]
+				},
+				"vl_value": {
+					"type": "input",
+					"top": 26,
+					"left": 185,
+					"width": 67,
+					"height": 16,
+					"sizingX": "move",
+					"dataSourceTypeHint": "number",
+					"class": "Default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 26,
+					"left": 121,
+					"width": 59,
+					"height": 16,
+					"sizingX": "move",
+					"class": "Default",
+					"textAlign": "right",
+					"text": "Value:"
+				},
+				"vl_scrollbar1": {
+					"type": "plugin",
+					"top": 426,
+					"left": 111,
+					"width": 476,
+					"height": 22,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"pluginAreaKind": "_hmFreeScrollbar",
+					"borderStyle": "none",
+					"events": [
+						"onClick",
+						"onPluginArea"
+					]
+				},
+				"vl_value2": {
+					"type": "input",
+					"top": 400,
+					"left": 515,
+					"width": 67,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"class": "Default",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 400,
+					"left": 451,
+					"width": 59,
+					"height": 16,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Default",
+					"textAlign": "right",
+					"text": "Value:"
+				},
+				"vl_to_page2": {
+					"type": "button",
+					"top": 460,
+					"left": 331,
+					"width": 113,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "To Page 2",
+					"focusable": false,
+					"method": "ObjectMethods/vl_to_page2.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"vl_to_page1": {
+					"type": "button",
+					"top": 460,
+					"left": 331,
+					"width": 113,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "To Page 1",
+					"focusable": false,
+					"method": "ObjectMethods/vl_to_page1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Ebene 1",
+		"defaultView": "Ebene 1",
+		"views": {
+			"Ebene 1": {},
+			"Ebene 2": {},
+			"Ebene 3": {},
+			"Ebene 4": {},
+			"Ebene 5": {},
+			"Ebene 6": {},
+			"Ebene 7": {},
+			"Ebene 8": {},
+			"Ebene 9": {}
+		}
+	}
+}

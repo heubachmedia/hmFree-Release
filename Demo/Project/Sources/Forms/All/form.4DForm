@@ -1,0 +1,93 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 8,
+					"left": 8,
+					"width": 260,
+					"height": 16,
+					"class": "Default",
+					"text": "hmFree 19.0"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 25,
+					"left": 8,
+					"width": 151,
+					"height": 16,
+					"class": "Default",
+					"text": "(C) 2003-2021"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 45,
+					"left": 8,
+					"width": 191,
+					"height": 16,
+					"class": "Default",
+					"text": "www.hmplugins.com"
+				},
+				"bBtn3": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 259,
+					"height": 68,
+					"display": false,
+					"method": "ObjectMethods/bBtn3.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Ebene 1",
+		"defaultView": "Ebene 1",
+		"views": {
+			"Ebene 1": {},
+			"Ebene 2": {},
+			"Ebene 3": {},
+			"Ebene 4": {},
+			"Ebene 5": {},
+			"Ebene 6": {},
+			"Ebene 7": {},
+			"Ebene 8": {},
+			"Ebene 9": {}
+		}
+	}
+}

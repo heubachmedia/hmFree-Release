@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="Testdata" uuid="03D36DFB54F44C8BA61370FF3B1FC947" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Tabelle_2" uuid="452433DA170447C6BEBE8DACEF443AE3" id="2" prevent_journaling="true">
+		<table_extra input_form="" output_form="">
+			<editor_table_info fields_ordering="1">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="159" top="0" width="120" height="168"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Tabelle_1" uuid="562D7FB0610849378371DAC09380A153" id="3" prevent_journaling="true">
+		<field name="Text" uuid="147FC47C53D644CB8F6C127B96FDE1D6" type="10" never_null="true" id="1"/>
+		<table_extra input_form="In" output_form="Out">
+			<editor_table_info displayable_fields_count="2">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="0" top="0" width="149" height="104"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<base_extra data_file_path=":Demo v18.4DD" ppc_code_stamp="338" __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+		<temp_folder folder_selector="data"/>
+	</base_extra>
+</base>

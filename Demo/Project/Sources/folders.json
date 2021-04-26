@@ -1,0 +1,24 @@
+{
+	"Standard Projekt-Methode": {
+		"methods": [
+			"Call_Text2Array",
+			"Call_weekOf",
+			"Convert"
+		]
+	},
+	"Standard-Formular": {
+		"forms": [
+			"Text2Array",
+			"weekOf"
+		]
+	},
+	"Standard-Ordner": {
+		"groups": [
+			"Standard Projekt-Methode",
+			"Standard-Formular",
+			"Standard-Tabelle"
+		]
+	},
+	"Standard-Tabelle": {},
+	"trash": {}
+}

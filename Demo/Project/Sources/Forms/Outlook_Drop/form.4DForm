@@ -1,0 +1,244 @@
+{
+	"destination": "detailScreen",
+	"width": 700,
+	"height": 500,
+	"menuBar": "Menüleiste Nr. 1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 46,
+					"left": 25,
+					"width": 172,
+					"height": 15,
+					"text": "Subject:"
+				},
+				"vt_dropfolder": {
+					"type": "input",
+					"top": 517,
+					"left": 1,
+					"width": 328,
+					"height": 16,
+					"visibility": "hidden",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 16,
+					"left": 25,
+					"width": 109,
+					"height": 15,
+					"text": "DROP HERE"
+				},
+				"vt_subject": {
+					"type": "input",
+					"top": 45,
+					"left": 94,
+					"width": 591,
+					"height": 16,
+					"sizingX": "grow",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vt_dropinfo": {
+					"type": "input",
+					"top": 15,
+					"left": 117,
+					"width": 568,
+					"height": 16,
+					"stroke": "#EE0000",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vt_body": {
+					"type": "input",
+					"top": 139,
+					"left": 94,
+					"width": 336,
+					"height": 320,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "visible",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 69,
+					"left": 25,
+					"width": 172,
+					"height": 15,
+					"text": "From:"
+				},
+				"vt_from": {
+					"type": "input",
+					"top": 68,
+					"left": 94,
+					"width": 591,
+					"height": 16,
+					"sizingX": "grow",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vt_from_email": {
+					"type": "input",
+					"top": 91,
+					"left": 94,
+					"width": 591,
+					"height": 16,
+					"sizingX": "grow",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 114,
+					"left": 25,
+					"width": 67,
+					"height": 15,
+					"text": "To:"
+				},
+				"vt_to": {
+					"type": "input",
+					"top": 113,
+					"left": 94,
+					"width": 591,
+					"height": 16,
+					"sizingX": "grow",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vt_attachments": {
+					"type": "input",
+					"top": 480,
+					"left": 94,
+					"width": 568,
+					"height": 16,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#EE0000",
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 480,
+					"left": 5,
+					"width": 87,
+					"height": 15,
+					"sizingY": "move",
+					"text": "Attachments:"
+				},
+				"List Box": {
+					"type": "listbox",
+					"top": 139,
+					"left": 467,
+					"width": 218,
+					"height": 337,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dropping": "custom",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"method": "ObjectMethods/List Box.4dm",
+					"events": [
+						"onClick",
+						"onDrop",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Spalte1",
+							"width": 203,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "vl_kopf1"
+							},
+							"footer": {
+								"name": "Fußteil1"
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

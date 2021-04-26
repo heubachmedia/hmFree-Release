@@ -1,0 +1,125 @@
+{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Menüleiste Nr. 1",
+			"items": [
+				{
+					"link": 15091
+				},
+				{
+					"link": 15446
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 15446,
+			"title": ":79,5",
+			"items": [
+				{
+					"title": ":131,18",
+					"shortcutAccel": true,
+					"shortcutKey": "Z",
+					"action": "undo"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":131,20",
+					"shortcutAccel": true,
+					"shortcutKey": "X",
+					"action": "cut"
+				},
+				{
+					"title": ":131,21",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"action": "copy"
+				},
+				{
+					"title": ":131,22",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"action": "paste"
+				},
+				{
+					"title": ":131,23",
+					"action": "clear"
+				},
+				{
+					"title": ":131,24",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"action": "selectAll"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":131,25",
+					"action": "showClipboard"
+				}
+			]
+		},
+		{
+			"link": 15091,
+			"title": "Datei",
+			"items": [
+				{
+					"title": "Demo Text2Array",
+					"method": "Call_Text2Array",
+					"startNewProcess": true
+				},
+				{
+					"title": "Demo Picturetypes",
+					"method": "Call_Picturetypes",
+					"startNewProcess": true
+				},
+				{
+					"title": "Demo WeekOf",
+					"method": "Call_weekOf",
+					"startNewProcess": true
+				},
+				{
+					"title": "Demo Arabic2Roman",
+					"method": "Call_Arabic2Roman",
+					"startNewProcess": true
+				},
+				{
+					"title": "Demo UUID",
+					"method": "Call_UUID",
+					"startNewProcess": true
+				},
+				{
+					"title": "Demo Scrollbar",
+					"method": "Call_Scrollbar",
+					"startNewProcess": true
+				},
+				{
+					"title": "Zeile 1",
+					"isSeparator": true
+				},
+				{
+					"title": "Add-On: Outlook Drop",
+					"method": "Call_OutlookDrop",
+					"startNewProcess": true
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": "Quit",
+					"shortcutAccel": true,
+					"shortcutKey": "Q",
+					"action": "quit"
+				}
+			]
+		}
+	]
+}

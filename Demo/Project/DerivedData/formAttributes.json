@@ -1,0 +1,44 @@
+{
+	"forms": {
+		"Video": {
+			"timeStamp": "2021-04-26T11:24:59.160Z",
+			"destination": "detailScreen"
+		},
+		"PictureTypes": {
+			"timeStamp": "2021-04-26T11:24:59.155Z",
+			"destination": "detailScreen"
+		},
+		"Outlook_Drop": {
+			"timeStamp": "2021-04-26T11:24:59.158Z",
+			"destination": "detailScreen"
+		},
+		"Arabic2Roman": {
+			"timeStamp": "2021-04-26T11:24:59.136Z",
+			"destination": "detailScreen"
+		},
+		"All": {
+			"timeStamp": "2021-04-26T11:24:59.145Z",
+			"destination": "detailScreen"
+		},
+		"weekOf": {
+			"timeStamp": "2021-04-26T11:24:59.140Z",
+			"destination": "detailScreen"
+		},
+		"Text2Array": {
+			"timeStamp": "2021-04-26T11:24:59.133Z",
+			"destination": "detailScreen"
+		},
+		"PorterStemmer": {
+			"timeStamp": "2021-04-26T11:24:59.153Z",
+			"destination": "detailScreen"
+		},
+		"UUID": {
+			"timeStamp": "2021-04-26T11:24:59.148Z",
+			"destination": "detailScreen"
+		},
+		"Scrollbar": {
+			"timeStamp": "2021-04-26T11:24:59.143Z",
+			"destination": "detailScreen"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+4D (4th Dimension, or Silver Surfer, as it was known during early development) is a relational database management system and IDE developed by Laurent Ribardière.[3] 4D was created in 1984[4] and had a slightly delayed public release for Macintosh in 1987[5][6][7] with its own Programming Language[1]
+
+The 4D product line has since expanded to a SQL back-end, integrated compiler, integration of PHP, and several productivity plug-ins and interfaces. Some of the plug-ins created by 4D include 4D Write (a word processor), 4D Draw (to draw shapes), 4D View (somewhat like a spreadsheet, but with extra functionality) and 4D Internet Commands (which let you add all sorts of Internet related functionality to a database). There are also over 100 third-party plugins, free and commercial.
+
+4D can also be used as a web server, to run compiled database applications.
+
+Today, 4D is published by the French company 4D SAS and has a sales, distribution and support presence in most major markets, with the US, UK and France being the primary markets. The product is localized in more than a dozen languages, including English, French, German, Japanese, Hebrew, Arabic, Korean and Persian.
