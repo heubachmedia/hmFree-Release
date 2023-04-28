@@ -1,8 +1,8 @@
 //%attributes = {}
-C_LONGINT:C283($i; $vl_error; $vl_context; $vl_cardOsVersion)
-C_BLOB:C604($vx_input; $vx_output; $vx_cin)
-C_TEXT:C284($vt_cin; $vt_input)
-C_REAL:C285($vz_serial)
+var $i; $vl_error; $vl_context : Integer
+var $vx_input; $vx_output; $vx_cin : Blob
+var $vt_cin; $vt_input : Text
+var $vz_serial : Real
 
 $vl_error:=SCard_EstablishContext($vl_context)
 
@@ -58,9 +58,6 @@ If ($vl_error=0)
 				CONVERT FROM TEXT:C1011($vt_input; "utf-16"; $vx_input)
 				
 				$vl_error:=SCard_Perform Signature($vl_context; "123456"; $vx_input; $vx_output)
-				
-				$vt_hash:=""
-				BASE64 ENCODE:C895($vx_output; $vt_hash)
 				
 			End if 
 			

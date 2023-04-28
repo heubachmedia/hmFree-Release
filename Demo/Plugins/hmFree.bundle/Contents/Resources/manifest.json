@@ -1,399 +1,484 @@
 {
     "name":"hmFree",
     "id":15103,
-    "commands":[
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_Register(&T):L",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_Week Of(&D):L",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-				"syntax":"hmFree_Arabic2Roman(&L):T",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_IsLicensed(&L):L",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_GetStringWidth(&T;&T;&L;&L):L",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_OpenMethodEditor(&T;&L):L"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_GET METHOD LIST(&Y;&Y)"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_GetMethodText(&L;&T):L"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"_hmFreeScrollbar"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"Scroll_INSTALL CALLBACK(&L;&T)"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"Scroll_SET VALUE(&L;&L)"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"Scroll_SET MAXIMUM(&L;&L)"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"Scroll_SET VIEWSIZE(&L;&L)"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"Scroll_Get Value(&L):L"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"Scroll_Get Maximum(&L):L"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"Scroll_Get Viewsize(&L):L"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_GetArrayWidth(&Y;&T;&L;&L):L",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_GenerateUUID:T",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_Porter Stemmer(&T):T",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_CRASH",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_PDF Split(&T):L",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_Tiff Split(&T):L"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_GET PICTURE TYPES(&P;&Y)",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_GET TEXT MEASURES(&T;&T;&8;&L;&8;&8;&8;&8)",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_Extract Text From PDF(&O;&T):L"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_PDF Split Rotation(&T;&Y):L"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_TEXT2ARRAY(&T;&Y;&L;&T;&L;&L)",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_GET PICTURE PROPERTIES(&P;&L;&L;&L)",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_SET PICTURE PROPERTIES(&P;&L;&L;&L)",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"_hmFreeRichtextArea"
-                },
-                {
-                "theme":"hmFree Drop",
-                "syntax":"hmFree_Register Drop Window(&L;&T):L"
-                },
-                {
-                "theme":"hmFree Drop",
-                "syntax":"hmFree_ANALYZE_CFBF(&T;&Y;&Y)"
-                },
-                {
-                "theme":"hmFree Drop",
-                "syntax":"hmFree_ANALYZE_CFBF_Get Names(&T;&Y)"
-                },
-                {
-                "theme":"hmFree Drop",
-                "syntax":"hmFree_ANALYZE_CFBF_Get Blob(&T;&T):O"
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_acos(&8):8",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree",
-                "syntax":"hmFree_asin(&8):8",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree SCard",
-                "syntax":"SCard_EstablishContext(&L):L"
-                },
-                {
-                "theme":"hmFree SCard",
-                "syntax":"SCard_ReleaseContext(&L):L"
-                },
-                {
-                "theme":"hmFree SCard",
-                "syntax":"SCard_ListReaders(&L;&Y):L"
-                },
-                {
-                "theme":"hmFree SCard",
-                "syntax":"SCard_Connect(&L;&T):L"
-                },
-                {
-                "theme":"hmFree SCard",
-                "syntax":"SCard_Disconnect(&L):L"
-                },
-                {
-                "theme":"hmFree SCard",
-                "syntax":"SCard_Transmit(&L;&O;&O):L"
-                },
-                {
-                "theme":"hmFree SCard",
-                "syntax":"SCard_Read CIN(&L;&O):L"
-                },
-                {
-                "theme":"hmFree SCard",
-                "syntax":"SCard_Read Certificate(&L;&O;&8):L"
-                },
-                {
-                "theme":"hmFree SCard",
-                "syntax":"SCard_Perform Signature(&L;&T;&O;&O):L"
-                },
-                {
-                "theme":"hmFree Encryption",
-                "syntax":"hmFree_Encrypt(&L;&O;&O,&O):L",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree Encryption",
-                "syntax":"hmFree_Decrypt(&L;&O;&O,&O):L",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree Encryption",
-                "syntax":"hmFree_DerivationKey(&L;&O;&O;&L;&L;&O):L",
-				"threadSafe": true
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Create(&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Load(&T):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Save as(&L;&T):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_CLOSE(&L)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Get total sheets(&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Add sheet(&L;&T;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Get sheet name(&L;&L;&T):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Set sheet name(&L;&L;&T):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Count Rows(&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Count Columns(&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Set Column Width(&L;&L;&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Get Column Width(&L;&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Merge Cells(&L;&L;&L;&L;&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Clear Value(&L;&L;&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Get Text Value(&L;&L;&L;&L):T"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Get Real Value(&L;&L;&L;&L):8"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Get Long Value(&L;&L;&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Set Long Value(&L;&L;&L;&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Set Real Value(&L;&L;&L;&L;&8):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Set Text Value(&L;&L;&L;&L;&T):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Get Value Type(&L;&L;&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_SET FONT PROPERTY(&L;&L;&L;&L;&T;&L;&L;&L;&L;&L;&L;&L)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_GET FONT PROPERTY(&L;&L;&L;&L;&T;&L;&L;&L;&L;&L;&L;&L)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_SET FORMAT PROPERTY(&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_GET FORMAT PROPERTY(&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Get Format String(&L;&L;&L;&L;&T):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Set Format String(&L;&L;&L;&L;&T):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_Get Wrapping(&L;&L;&L;&L):L"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_SET WRAPPING(&L;&L;&L;&L;&L)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_SET MARGINS(&L;&L;&L;&8;&L;&8;&L;&8;&L;&8)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_SET HEADER AND FOOTER(&L;&L;&T;&T)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_SET PAGE SETUP(&L;&L;&L;&L;&L;&L;&L;&L)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_SET ROW HEIGHT(&L;&L;&L;&L)"
-                },
-                {
-                "theme":"hmFree Excel",
-                "syntax":"xls_SET ROW ALIGNMENT(&L;&L;&L;&L)"
-                },
-                {
-                "theme":"hmFree Windows",
-                "syntax":"hmFree_Get Window From 4D(&L):L"
-                },
-                {
-                "theme":"hmFree Windows",
-                "syntax":"hmFree_Load Icon(&T;&L):L"
-                },
-                {
-                "theme":"hmFree Windows",
-                "syntax":"hmFree_Set Icon(&L;&L):L"
-                },
-                {
-                "theme":"hmFree Windows",
-                "syntax":"hmFree_Get Window(&T):L"
-                },
-                {
-                "theme":"hmFree Windows",
-                "syntax":"hmFree_SET WINDOW TITLE(&L;&T)"
-                },
-                {
-                "theme":"hmFree Fingerprint",
-                "syntax":"hmFree_Fingerprint_Init:L"
-                },
-                {
-                "theme":"hmFree Fingerprint",
-                "syntax":"hmFree_Fingerprint_DeInit:L"
-                },
-                {
-                "theme":"hmFree Fingerprint",
-                "syntax":"hmFree_Fingerprint_GET READERS(&Y;&Y;&Y;&Y)"
-                },
-                {
-                "theme":"hmFree Fingerprint",
-                "syntax":"hmFree_Fingerprint_Get Capture(&T;&L):O"
-                },
-                {
-                "theme":"hmFree Fingerprint",
-                "syntax":"hmFree_Fingerprint_Get Verific(&O;&O):L"
-				},
-				{
-				"theme":"hmFree",
-				"syntax":"hmFree_Get Visible Screen Frame(&L;&L;&L;&L;&L)"
-				}
-                ]
+  "commands": [
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_Register(&T):L",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_Week Of(&D):L",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_Arabic2Roman(&L):T",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_IsLicensed(&L):L",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_GetStringWidth(&T;&T;&L;&L):L",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_OpenMethodEditor(&T;&L):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_GET METHOD LIST(&Y;&Y)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_GetMethodText(&L;&T):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "_hmFreeScrollbar"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "Scroll_INSTALL CALLBACK(&L;&T)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "Scroll_SET VALUE(&L;&L)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "Scroll_SET MAXIMUM(&L;&L)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "Scroll_SET VIEWSIZE(&L;&L)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "Scroll_Get Value(&L):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "Scroll_Get Maximum(&L):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "Scroll_Get Viewsize(&L):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_GetArrayWidth(&Y;&T;&L;&L):L",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_GenerateUUID:T",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_Porter Stemmer(&T):T",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_CRASH",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_PDF Split(&T):L",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_Tiff Split(&T):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_GET PICTURE TYPES(&P;&Y)",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_GET TEXT MEASURES(&T;&T;&8;&L;&8;&8;&8;&8)",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_Extract Text From PDF(&O;&T):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_PDF Split Rotation(&T;&Y):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_TEXT2ARRAY(&T;&Y;&L;&T;&L;&L)",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_GET PICTURE PROPERTIES(&P;&L;&L;&L)",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_SET PICTURE PROPERTIES(&P;&L;&L;&L)",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "_hmFreeRichtextArea"
+    },
+    {
+      "theme": "hmFree Drop",
+      "syntax": "hmFree_Register Drop Window(&L;&T):L"
+    },
+    {
+      "theme": "hmFree Drop",
+      "syntax": "hmFree_ANALYZE_CFBF(&T;&Y;&Y)"
+    },
+    {
+      "theme": "hmFree Drop",
+      "syntax": "hmFree_ANALYZE_CFBF_Get Names(&T;&Y)"
+    },
+    {
+      "theme": "hmFree Drop",
+      "syntax": "hmFree_ANALYZE_CFBF_Get Blob(&T;&T):O"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_acos(&8):8",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_asin(&8):8",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree SCard",
+      "syntax": "SCard_EstablishContext(&L):L"
+    },
+    {
+      "theme": "hmFree SCard",
+      "syntax": "SCard_ReleaseContext(&L):L"
+    },
+    {
+      "theme": "hmFree SCard",
+      "syntax": "SCard_ListReaders(&L;&Y):L"
+    },
+    {
+      "theme": "hmFree SCard",
+      "syntax": "SCard_Connect(&L;&T):L"
+    },
+    {
+      "theme": "hmFree SCard",
+      "syntax": "SCard_Disconnect(&L):L"
+    },
+    {
+      "theme": "hmFree SCard",
+      "syntax": "SCard_Transmit(&L;&O;&O):L"
+    },
+    {
+      "theme": "hmFree SCard",
+      "syntax": "SCard_Read CIN(&L;&O):L"
+    },
+    {
+      "theme": "hmFree SCard",
+      "syntax": "SCard_Read Certificate(&L;&O;&8):L"
+    },
+    {
+      "theme": "hmFree SCard",
+      "syntax": "SCard_Perform Signature(&L;&T;&O;&O):L"
+    },
+    {
+      "theme": "hmFree Encryption",
+      "syntax": "hmFree_Encrypt(&L;&O;&O,&O):L",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree Encryption",
+      "syntax": "hmFree_Decrypt(&L;&O;&O,&O):L",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree Encryption",
+      "syntax": "hmFree_DerivationKey(&L;&O;&O;&L;&L;&O):L",
+      "threadSafe": true
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Create(&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Load(&T):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Save as(&L;&T):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_CLOSE(&L)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Get total sheets(&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Add sheet(&L;&T;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Get sheet name(&L;&L;&T):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Set sheet name(&L;&L;&T):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Count Rows(&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Count Columns(&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Set Column Width(&L;&L;&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Get Column Width(&L;&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Merge Cells(&L;&L;&L;&L;&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Clear Value(&L;&L;&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Get Text Value(&L;&L;&L;&L):T"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Get Real Value(&L;&L;&L;&L):8"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Get Long Value(&L;&L;&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Set Long Value(&L;&L;&L;&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Set Real Value(&L;&L;&L;&L;&8):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Set Text Value(&L;&L;&L;&L;&T):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Get Value Type(&L;&L;&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_SET FONT PROPERTY(&L;&L;&L;&L;&T;&L;&L;&L;&L;&L;&L;&L)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_GET FONT PROPERTY(&L;&L;&L;&L;&T;&L;&L;&L;&L;&L;&L;&L)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_SET FORMAT PROPERTY(&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_GET FORMAT PROPERTY(&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L;&L)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Get Format String(&L;&L;&L;&L;&T):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Set Format String(&L;&L;&L;&L;&T):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_Get Wrapping(&L;&L;&L;&L):L"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_SET WRAPPING(&L;&L;&L;&L;&L)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_SET MARGINS(&L;&L;&L;&8;&L;&8;&L;&8;&L;&8)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_SET HEADER AND FOOTER(&L;&L;&T;&T)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_SET PAGE SETUP(&L;&L;&L;&L;&L;&L;&L;&L)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_SET ROW HEIGHT(&L;&L;&L;&L)"
+    },
+    {
+      "theme": "hmFree Excel",
+      "syntax": "xls_SET ROW ALIGNMENT(&L;&L;&L;&L)"
+    },
+    {
+      "theme": "hmFree Windows",
+      "syntax": "hmFree_Get Window From 4D(&L):L"
+    },
+    {
+      "theme": "hmFree Windows",
+      "syntax": "hmFree_Load Icon(&T;&L):L"
+    },
+    {
+      "theme": "hmFree Windows",
+      "syntax": "hmFree_Set Icon(&L;&L):L"
+    },
+    {
+      "theme": "hmFree Windows",
+      "syntax": "hmFree_Get Window(&T):L"
+    },
+    {
+      "theme": "hmFree Windows",
+      "syntax": "hmFree_SET WINDOW TITLE(&L;&T)"
+    },
+    {
+      "theme": "hmFree Fingerprint",
+      "syntax": "hmFree_Fingerprint_Init:L"
+    },
+    {
+      "theme": "hmFree Fingerprint",
+      "syntax": "hmFree_Fingerprint_DeInit:L"
+    },
+    {
+      "theme": "hmFree Fingerprint",
+      "syntax": "hmFree_Fingerprint_GET READERS(&Y;&Y;&Y;&Y)"
+    },
+    {
+      "theme": "hmFree Fingerprint",
+      "syntax": "hmFree_Fingerprint_Get Capture(&T;&L):O"
+    },
+    {
+      "theme": "hmFree Fingerprint",
+      "syntax": "hmFree_Fingerprint_Get Verific(&O;&O):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "hmFree_Get Visible Screen Frame(&L;&L;&L;&L;&L)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_Connect(&L;&T;&T):J"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_DISCONNECT(&J)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_OPEN DEVICE(&J)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_CLOSE DEVICE(&J)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_Get RAW Storage Info(&J):T"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_SETUP(&J;&T;&T;&T)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_FACTORY RESET(&J)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_Get Last Transaction(&J;&T):J"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_Get Registered Clients(&J):C"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_Authenticate User(&J;&T;&T;&T):L"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_REGISTER CLIENT(&J;&T)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_DEREGISTER CLIENT(&J;&T)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_START TRANSACTION(&J;&T;&T;&T;&T)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_Get Started Transactions(&J;&T):C"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_UPDATE TRANSACTION(&J;&T;&8;&T;&T)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_FINISH TRANSACTION(&J;&T;&8;&T;&T;&T)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_LOGOUT(&J;&T)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_Get Authenticated User List(&J;&T):C"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_UPDATE TIME(&J;&T;&8;&L)"
+    },
+    {
+      "theme": "hmFree",
+      "syntax": "TSE_EXPORT DATA(&J;&O)"
+    }
+	,
+	{
+	  "theme": "hmFree",
+	  "syntax": "TSE_RUN SELF TEST(&J)"
+	}
+  ]
 
 }

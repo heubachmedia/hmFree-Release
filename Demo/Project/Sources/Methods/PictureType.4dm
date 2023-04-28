@@ -1,6 +1,5 @@
 //%attributes = {}
-C_PICTURE:C286($vb_picture)
-C_LONGINT:C283($vl_error)
+var $vb_picture : Picture
 
 READ PICTURE FILE:C678(""; $vb_picture)
 

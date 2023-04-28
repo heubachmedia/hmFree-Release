@@ -1,7 +1,7 @@
 //%attributes = {}
 C_TEXT:C284($vt_path; $vt_text; $vt_attachments)
 C_POINTER:C301($vp_object)
-C_LONGINT:C283($vl_pos; $i; $vl_size)
+C_LONGINT:C283($vl_pos)
 
 $vt_path:=$1
 

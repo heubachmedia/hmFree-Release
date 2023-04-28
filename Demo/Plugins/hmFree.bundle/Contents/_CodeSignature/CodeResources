@@ -8,6 +8,10 @@
 		<data>
 		+c+sPYTSf0leK4SpOwuUvdd3g8I=
 		</data>
+		<key>Resources/EpsonTseLibCMulti64.dll</key>
+		<data>
+		8pzG93J3QCDzVvZcgMI42pMOIiM=
+		</data>
 		<key>Resources/de.lproj/InfoPlist.strings</key>
 		<dict>
 			<key>hash</key>
@@ -28,7 +32,7 @@
 		</dict>
 		<key>Resources/manifest.json</key>
 		<data>
-		yKzwBJ/fRHArodpXa3RuoCWIq2Y=
+		l71yjOQJmrXj4fm+t0sEyBRjGKM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -38,6 +42,13 @@
 			<key>hash2</key>
 			<data>
 			jMtjfivNRM03nqeIXbVHyr9rfWKj0nR8uak23Os7ACs=
+			</data>
+		</dict>
+		<key>Resources/EpsonTseLibCMulti64.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IYNixH2Ph6QISCvBgcvN+a7idZuE26xo7bYmznL7HFE=
 			</data>
 		</dict>
 		<key>Resources/de.lproj/InfoPlist.strings</key>
@@ -62,14 +73,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ub7DO5KBtgC8pd35dM/Hu2Eg0Cdyp7GOObQI+rUvTec=
+			7UiKKmxVA2fMjDkwdpNwYu/G66aBuV5/OIMntMaJc94=
 			</data>
 		</dict>
 		<key>Windows64/hmFree.4DX</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			myUKd2FtGvYBqy24o67DbrEV89lYnLcmFLIQHag/PNM=
+			BSTduaywftLp1S0QHKZ3gpa5yxyrZQ4PiobKhdGxNsw=
 			</data>
 		</dict>
 	</dict>
