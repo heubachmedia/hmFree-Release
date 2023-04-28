@@ -40,7 +40,7 @@
 					"width": 260,
 					"height": 16,
 					"class": "Default",
-					"text": "hmFree 19.0"
+					"text": "hmFree 20.0"
 				},
 				"Text10": {
 					"type": "text",
@@ -49,7 +49,7 @@
 					"width": 151,
 					"height": 16,
 					"class": "Default",
-					"text": "(C) 2003-2021"
+					"text": "(C) 2003-2023"
 				},
 				"Text1": {
 					"type": "text",
@@ -89,5 +89,10 @@
 			"Ebene 8": {},
 			"Ebene 9": {}
 		}
+	},
+	"geometryStamp": 4,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }
