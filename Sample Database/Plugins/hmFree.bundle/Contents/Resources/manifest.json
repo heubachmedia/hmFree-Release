@@ -384,7 +384,7 @@
     },
     {
       "theme": "hmFree Fingerprint",
-      "syntax": "hmFree_Fingerprint_Get Capture(&T;&L):O"
+      "syntax": "hmFree_Fingerprint_Get Capture(&T;&L;&L):O"
     },
     {
       "theme": "hmFree Fingerprint",
