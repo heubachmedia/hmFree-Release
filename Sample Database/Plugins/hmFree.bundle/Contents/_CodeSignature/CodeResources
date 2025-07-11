@@ -14,11 +14,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		7jOPq/ZfcOod5FFYYg3D31QKMDI=
-		</data>
-		<key>Resources/README.md</key>
-		<data>
-		M2tJlGLD5dZPFhEQxWm5cnvDouM=
+		TZFzAkfW6hf6vuon5sNjYCJtcEU=
 		</data>
 		<key>Resources/de.lproj/InfoPlist.strings</key>
 		<dict>
@@ -33,14 +29,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z3Rs+yGrJSLoqUHOeDXS3do/VEU=
+			GvQn0/TnY3467Bp0aITAaiyiJ+Y=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/manifest.json</key>
 		<data>
-		8ekPhcCH58EohCLpUIOy1MRvO+M=
+		ugAPW7ZvCfAPWzp5Ak0hCag4chk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -63,14 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hWr2cIXvMyYIddwZqXJ6PcFySVQriIcDBra3/XuRY2Q=
-			</data>
-		</dict>
-		<key>Resources/README.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			j3b5Q5WCOV6pVrh0T2klOhlxmiLf1pKgvTFtdBEQC9Y=
+			/Ub39V/1Ddk0qNE9B5Rr9Pgif27/uvq9Qyv+WUx2NSo=
 			</data>
 		</dict>
 		<key>Resources/de.lproj/InfoPlist.strings</key>
@@ -86,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pdf+yHi8H3VCj2Rl27h3HH7/96RCJtcjxAVm6lHojCM=
+			r98YkYjm6mQFSW7P95znPQrNVzmk5aHs9n8aXTiOgbQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -95,14 +84,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UxxgFA9GiACEHlaW5P5vx822gCU7YMAHLG53l+a/SoE=
+			Z+ApIbY4kBIkdVeUfaG7ZOzvftJSBi3cp/ap3UH2bvw=
 			</data>
 		</dict>
 		<key>Windows64/hmFree.4DX</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RcpmAQKY9k2TXrW1K/uoa/WHDVXLuSa0TQB2vIMPon4=
+			cb4ar3yWVvYa4TPALy/clhEkuRNOWa+6uVqH17psuwE=
 			</data>
 		</dict>
 	</dict>

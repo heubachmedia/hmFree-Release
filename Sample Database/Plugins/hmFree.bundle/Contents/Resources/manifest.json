@@ -473,12 +473,85 @@
     {
       "theme": "hmFree",
       "syntax": "TSE_EXPORT DATA(&J;&O)"
-    }
-	,
+    },
 	{
 	  "theme": "hmFree",
 	  "syntax": "TSE_RUN SELF TEST(&J)"
-	}
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_New Compare(&Y;&Y;&8;&L):L",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_DELETE COMPARE(&L)",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_EXECUTE COMPARE(&L;&T;&Y;&Y)",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_UPDATE COMPARE(&L;&L;&T;&L)",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_FindInBlob(&O;&T):L",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_FindInBlobEx(&O;&T;&L;&L):L",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_Compare Blob(&O;&O):L",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_StringComparePercent(&T;&T;&L):8",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_STRING_COMPARE_ARRAY(&Y;&T;&L;&8;&Y;&Y)",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_CRYPT SERIAL(&L;&L;&L;&L;&L;&L;&D;&T;&L)",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_DECRYPT SERIAL(&T;&L;&L;&L;&L;&L;&L;&D;&L)",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_CRYPT SERIAL2(&L;&L;&L;&L;&L;&L;&L;&D;&T;&L)",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_DECRYPT SERIAL2(&T;&L;&L;&L;&L;&L;&L;&L;&D;&L)",
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_CRYPT SERIAL3(&L;&L;&L;&L;&L;&L;&L;&D;&L;&T;&L)",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_DECRYPT SERIAL3(&T;&L;&L;&L;&L;&L;&L;&L;&D;&L;&L)",
+		"threadSafe":true
+	},
   ]
 
 }
