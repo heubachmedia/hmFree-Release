@@ -541,6 +541,7 @@
 	{
 		"theme":"hmFree",
 		"syntax":"hmFree_DECRYPT SERIAL2(&T;&L;&L;&L;&L;&L;&L;&L;&D;&L)",
+		"threadSafe":true
 	},
 	{
 		"theme":"hmFree",
@@ -551,7 +552,7 @@
 		"theme":"hmFree",
 		"syntax":"hmFree_DECRYPT SERIAL3(&T;&L;&L;&L;&L;&L;&L;&L;&D;&L;&L)",
 		"threadSafe":true
-	},
+	}
   ]
 
 }
