@@ -552,6 +552,21 @@
 		"theme":"hmFree",
 		"syntax":"hmFree_DECRYPT SERIAL3(&T;&L;&L;&L;&L;&L;&L;&L;&D;&L;&L)",
 		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_FindBlobInBlob(&O;&O;&L):L",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_Tiff Split(&T):L",
+		"threadSafe":true
+	},
+	{
+		"theme":"hmFree",
+		"syntax":"hmFree_PDF Split(&T):L",
+		"threadSafe":true
 	}
   ]
 
